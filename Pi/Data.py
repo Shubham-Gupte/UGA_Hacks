@@ -16,5 +16,10 @@ coordinateData = json.loads(response.read())
 
 lat = coordinateData['results'][0]['geometry']['location']['lat']
 lng = coordinateData['results'][0]['geometry']['location']['lng']
+lines[1] = str(lat) + '\n'
+lines[2] = str(lng) + '\n'
 
+with open('base.txt', 'w') as file:
+    file.writelines(lines)
+### Weather and file editing
 print lng
