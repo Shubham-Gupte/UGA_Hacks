@@ -1,3 +1,15 @@
-address
+starting address
 latitude
 Longitude
+temperature
+sky conditions
+time it takes to get ready
+destination
+destination lat
+destination lng
+time it takes to arrive at destination
+time a person should wake up (hours)
+time a person should wake up (min)
+time they want to arrive (hours)
+time they want to arrive (min)
+current traffic
