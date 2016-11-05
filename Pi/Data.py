@@ -65,9 +65,9 @@ response = urllib.urlopen(trafficData)
 trafficReceiver = json.loads(response.read())
 
 
-print trafficReceiver["rows"][0]["elements"][0]["duration"]["value"]
-totalTime = int(trafficReceiver["rows"][0]["elements"][0]["duration"]["value"]) + int(timeToGetReady)
-
+print trafficReceiver["rows"][0]["elements"][0]["duration"]["value"] #traffic time
+trafficTime = int(trafficReceiver["rows"][0]["elements"][0]["duration"]["value"]) #traffic time
+lines[14] = str(trafficTime)
 
 with open('base.txt', 'w') as file:
     file.writelines(lines)
