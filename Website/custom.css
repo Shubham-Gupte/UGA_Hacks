@@ -45,12 +45,13 @@ ul li {
 	padding: 0 10px;
 	display: table-cell;
 	vertical-align: middle;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	transform: rotate(-45deg);
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
 	text-align: center;
+
 }
 .diamond-grid > li:nth-child(9n+6) {
 	margin-left: 66px;
@@ -63,7 +64,7 @@ ul li {
 	margin-top: -51px;
 }
 .diamond:hover {
-	background: #fff;
+	background: transparent;
 	color: #3cddb9;
 }
 .diamond{

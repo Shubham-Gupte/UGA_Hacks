@@ -1,15 +1,15 @@
-starting address
-latitude
-Longitude
-temperature
-sky conditions
-time it takes to get ready
-destination
-destination lat
-destination lng
-time it takes to arrive at destination
-time a person should wake up (hours)
-time a person should wake up (min)
-time they want to arrive (hours)
-time they want to arrive (min)
-current traffic
+starting address changed via user
+latitude cvu
+Longitude cvu
+temperature changed regularly
+sky conditions cr
+time it takes to get ready cvu
+destination cvu
+destination lat cvu
+destination lng cvu
+time it takes to arrive at destination cvu (indirectly)
+time a person should wake up (hours) cvu
+time a person should wake up (min) cvu
+time they want to arrive (hours) cvu
+time they want to arrive (min) cvu
+current traffic cr
